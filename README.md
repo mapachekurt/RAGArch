@@ -1,5 +1,5 @@
 
-# RAGArch: Configure/Test Llamaindex RAG Pipelines and One-click Autogenerate Plug-n-play Code
+# RAGArch: Configure/Test Llamaindex RAG Pipelines and One-click Autogenerate Plug-n-play Codes
 
 RAGArch is a Streamlit-based application that empowers users to experiment with various components and parameters of Retrieval-Augmented Generation (RAG) pipelines. Utilizing the power of Llamaindex, RAGArch facilitates the testing of different configurations to see how they perform. Once satisfied, users can generate the Python code for their custom RAG pipeline configurations, enabling easy integration into their applications.
 
