@@ -5,7 +5,7 @@ print("LlamaIndex version:", llama_index_version)
 import os, tempfile, qdrant_client
 import streamlit as st
 from llama_index.llms.openai import OpenAI
-from llama_index.llms.gemini import Gemini
+from llama_index.llms import Gemini
 from llama_index.llms.cohere import Cohere
 from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex, StorageContext
