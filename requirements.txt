@@ -10,3 +10,5 @@ tree_sitter_languages
 chromadb
 qdrant-client
 pinecone-client
+streamlit
+gunicorn
