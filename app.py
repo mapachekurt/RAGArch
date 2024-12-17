@@ -1,5 +1,7 @@
 import llama_index
-print("LlamaIndex version:", llama_index.__version__)
+import importlib.metadata
+llama_index_version = importlib.metadata.version("llama-index")
+print("LlamaIndex version:", llama_index_version)
 import os, tempfile, qdrant_client
 import streamlit as st
 from llama_index.llms.openai import OpenAI
