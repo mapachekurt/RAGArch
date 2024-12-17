@@ -12,3 +12,5 @@ qdrant-client
 pinecone-client
 streamlit
 gunicorn
+langchain-community
+
