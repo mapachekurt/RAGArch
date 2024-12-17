@@ -12,5 +12,5 @@ qdrant-client
 pinecone-client
 streamlit
 gunicorn
-langchain-community
-
+langchain==0.0.350
+langchain-community==0.0.14
