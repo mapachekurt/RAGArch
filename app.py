@@ -1,6 +1,10 @@
+import llama_index
+print("LlamaIndex version:", llama_index.__version__)
 import os, tempfile, qdrant_client
 import streamlit as st
-from llama_index.llms import OpenAI, Gemini, Cohere
+from llama_index.llms.openai import OpenAI
+from llama_index.llms.gemini import Gemini
+from llama_index.llms.cohere import Cohere
 from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex, StorageContext
 from llama_index.node_parser import SentenceSplitter, CodeSplitter, SemanticSplitterNodeParser, TokenTextSplitter
